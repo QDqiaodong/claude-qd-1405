@@ -1,0 +1,29 @@
+:root {
+  /* 农机棕主色 #5D4037 —— 与已建各仓主色均不重复 */
+  --primary: #5D4037;
+  --primary-deep: #3E2723;
+  --primary-soft: #8D6E63;
+  --primary-wash: #EFEBE9;
+  --ink: #3E2723;
+  --muted: #8D6E63;
+  --line: #D7CCC8;
+  --bg: #F5F1EE;
+
+  --el-color-primary: #5D4037;
+  --el-color-primary-light-3: #8A6C61;
+  --el-color-primary-light-5: #A98D81;
+  --el-color-primary-light-7: #C4A99E;
+  --el-color-primary-light-8: #D3BCB2;
+  --el-color-primary-light-9: #E7DCD6;
+  --el-color-primary-dark-2: #4A332C;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
